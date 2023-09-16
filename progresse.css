@@ -1,0 +1,117 @@
+/* Les importations ----------------------------------------- */
+
+    @import url("http: //fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin");
+
+/* Fin importations ----------------------------------------- */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 70%;
+    margin: 12px auto;
+}
+
+
+
+/* Profil et Description du portofolio */
+
+.grid-profil-description {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid black;
+}
+.profil-description {
+    border: 1px solid black;
+}
+.grid-description {
+    min-width: 300px;
+}
+.grid-profil {
+    width: 260px;
+    height: 400px;
+}
+
+
+/*  */
+
+
+.grid-progress-image {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 0 5%;
+    gap: 20px;
+}
+
+.progress-image {
+    border: 1px solid rgb(121, 36, 36);
+}
+.grid-images {
+    width: 180px;
+    height: 180px;
+}
+
+.grid-domaine-progress {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+}
+.domaine-grid {
+    min-width: 100px;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(0, 63, 63);
+}
+.domaine-content {
+    text-align: right;
+}
+.progress-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-auto-rows: 10px;
+    row-gap: 10px;
+}
+.progress-content {
+    background-color: red;
+}
+.progress-content-right {
+    background-color: rgb(173, 173, 173);
+}
+
+/* HTML */
+.progress-content:nth-child(1) {
+    width: 196%;
+}
+.progress-content:nth-child(2) {
+    width: 5%;
+    margin-left: 95%;
+}
+/* CSS */
+.progress-content:nth-child(3) {
+    width: 185%;
+}
+
+.progress-content:nth-child(4) {
+    width: 15%;
+    margin-left: 85%;
+}
+/* JAVASCRIPT */
+.progress-content:nth-child(5) {
+    width: 160%;
+}
+.progress-content:nth-child(6) {
+    width: 40%;
+    margin-left: 60%;
+}
+/* UX - UI */
+.progress-content:nth-child(7) {
+    width: 160%;
+}
+
+.progress-content:nth-child(8) {
+    width: 40%;
+    margin-left: 60%;
+}
